@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  font-family: 'SourceSansPro' !important;
+  font-size: 14px;
+  min-width: 800px;
+  min-height: 500px;
+}
+.bg-image {
+  background-image: url( '../media/main1.jpg' );
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  min-width: 800px;
+  min-height: 500px;
+  height: 100vh;
+}
+.logo {
+  left: 20px;
+  top: 20px;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+.info {
+  left: 0px;
+  bottom: 0px;
+}
+.social {
+  right: 0px;
+  bottom: 0px;
+}
+.game {
+  top: 20px;
+  right: 20px;
+  width: 170px;
+  height: auto;;
+  border: 3px solid red;
+  line-height: 1.2em;
+}
+.game-submit {
+  width: 170px; 
+  left: -3px;
+  bottom: -53px;
+  border-top: 0px solid red !important;
+  border: 3px solid red;
+  height: 15px;
+  background-color: rgba(0,0,0,0);
+}
+.submit-input {
+  background-color: rgba( 0,0,0,0);
+  left: 0px;
+  top:  0px;
+  height: 100% !important;
+  width: 100%;
+  border: 0 solid white;
+  padding-left: inherit !important;
+  padding-left: inherit !important;
+}
+.submit-tweet {
+  height: 24px; 
+  width: 24px; 
+  text-align: center;
+  line-height: 24px;
+  right: 8px;
+  top: 8px;
+  padding: 4px;
+  cursor: pointer;
+}
+.submit-tweet > i {
+  margin-top: 4px;
+}
+.game-rules {
+  right: 0px;
+  bottom: -80px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.rules {
+  z-index: 1000;
+  display: none;
+}
+.rules .overlay {
+  background-color: rgba(255,255,255,0.9);
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.rules .exit {
+  right: 32px;
+  top: 24px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.rules .content-wrapper {
+  width: 100vw;
+  top: 48px;
+}
+.rules .content {
+  width: 80vw;
+  margin: 0 auto;
+}
+.rules .rules-title {
+  border-bottom: 3px solid red;
+  margin-bottom: 20px;
+}
+.question {
+  width: 300px;
+  padding-bottom: 0px !important;
+}
+
+

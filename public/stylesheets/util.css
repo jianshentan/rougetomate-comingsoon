@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sourcesanspro-regular/sourcesanspro-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sourcesanspro-semi-regular/sourcesanspro-semibold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sourcesanspro-bold/sourcesanspro-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: bold
+
+}
+
+/* UTIL ---------------------------------------- */
+
+.gray2 {
+  color: #666;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* UTIL ---------------------------------------- */
+
+.gray2 {
+  color: #666;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
