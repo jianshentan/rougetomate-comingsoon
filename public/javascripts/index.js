@@ -5,7 +5,7 @@ $( document ).ready( function() {
     $( '.rules' ).toggle('slow');
   });
 
-  $( '.rules .exit' ).click( function() {
+  $( '.rules .exit, .bg-image' ).click( function() {
     $( '.rules' ).toggle('slow');
   });
 

@@ -6,7 +6,7 @@ body {
   min-height: 500px;
 }
 .bg-image {
-  background-image: url( '../media/main1.jpg' );
+  background-image: url( '../media/RougeTomateChelsea.jpg' );
   background-size: cover;
   background-position: center;
   width: 100vw;
@@ -25,21 +25,26 @@ body {
 .info {
   left: 0px;
   bottom: 0px;
+  font-size: 1.2em;
+}
+.info a {
+  text-decoration: none;
 }
 .social {
   right: 0px;
   bottom: 0px;
+  font-size: 1.6em;
 }
 .game {
   top: 20px;
   right: 20px;
-  width: 170px;
+  width: 220px;
   height: auto;;
   border: 3px solid red;
-  line-height: 1.2em;
+  line-height: 1.6em;
 }
 .game-submit {
-  width: 170px; 
+  width: 220px; 
   left: -3px;
   bottom: -53px;
   border-top: 0px solid red !important;
@@ -66,13 +71,20 @@ body {
   top: 8px;
   padding: 4px;
   cursor: pointer;
+  font-size: 1.3em;
 }
 .submit-tweet > i {
   margin-top: 4px;
 }
+.game-download {
+  right: 0px;
+  bottom: -112px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .game-rules {
   right: 0px;
-  bottom: -80px;
+  bottom: -86px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -82,20 +94,36 @@ body {
 }
 .rules .overlay {
   background-color: rgba(255,255,255,0.9);
-  left: 0px;
-  top: 0px;
-  width: 100vw;
-  height: 100vh;
+  left: 50%;
+  top: 50%;
+  width: 80vw;
+  height: 80vh;
+  margin-left: -44vw;
+  margin-top: -44vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 .rules .exit {
   right: 32px;
   top: 24px;
   font-size: 32px;
   cursor: pointer;
+  z-index: 1001;
 }
 .rules .content-wrapper {
-  width: 100vw;
-  top: 48px;
+  left: 50%;
+  top: 50%;
+  width: 80vw;
+  height: 80vh;
+  margin-left: -44vw;
+  margin-top: -44vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  overflow: scroll;
 }
 .rules .content {
   width: 80vw;
@@ -108,6 +136,40 @@ body {
 .question {
   width: 300px;
   padding-bottom: 0px !important;
+}
+@media screen and (max-width: 830px) {
+  .rules .overlay ,
+  .rules .content ,
+  .rules .content-wrapper {
+    width: 65vw;
+  }
+  .rules .overlay ,
+  .rules .content-wrapper {
+    margin-left: -36.5vw;
+  }
+}
+@media screen and (min-width: 830px) and (max-width: 1000px) {
+  .rules .overlay ,
+  .rules .content ,
+  .rules .content-wrapper {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 1000px ) and (max-width: 1245px) {
+  .rules .overlay ,
+  .rules .content ,
+  .rules .content-wrapper {
+    width: 65vw;
+  }
+  .rules .overlay ,
+  .rules .content-wrapper {
+    margin-left: -36.5vw;
+  }
+}
+@media screen and (min-width: 1245px) {
+  .question {
+    width: 300px;
+  }
 }
 
 
