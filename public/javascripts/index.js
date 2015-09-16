@@ -28,7 +28,7 @@ function createTweetPopup(number) {
                ',top='    + top    +
                ',left='   + left;
   
-  window.open("http://twitter.com/share?text=there%20are%20"+number+"%20tomatoes!%20@rougetomatechelsea%20%23RTChelseaOpening", 'twitter', opts);
+  window.open("http://twitter.com/share?text=there%20are%20"+number+"%20tomatoes!%20@rougetomateNYC%20%23RTChelseaOpening", 'twitter', opts);
 
   return false;
 };
