@@ -8,7 +8,7 @@ body {
 .bg-image {
   background-image: url( '../media/RougeTomateChelsea.jpg' );
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   width: 100vw;
   min-width: 800px;
   min-height: 500px;
