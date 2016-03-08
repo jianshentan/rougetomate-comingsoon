@@ -15,7 +15,7 @@ var winnerHandles = [
   '@Chilley510'
 ];
 var winnerCount = [ "44 tomatoes", "83 tomatoes", "134 tomatoes", "216 tomatoes" ];
-var roundNumber = [ "round one", "round two", "round three", "final round" ];
+var roundNumber = [ "round one", "round two", "round three", "the final round" ];
 
 $( document ).ready( function() {
 
