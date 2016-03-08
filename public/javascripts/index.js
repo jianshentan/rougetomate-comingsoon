@@ -15,6 +15,7 @@ var winnerHandles = [
   '@Chilley510'
 ];
 var winnerCount = [ "44 tomatoes", "83 tomatoes", "134 tomatoes", "216 tomatoes" ];
+var winnerAction = [ "nailed", "nailed", "nailed", "guessed" ];
 var roundNumber = [ "round one", "round two", "round three", "the final round" ];
 
 $( document ).ready( function() {
@@ -76,6 +77,12 @@ $( document ).ready( function() {
     round.fadeOut( 400, function() {
       round.html( roundNumber[r] );
       round.fadeIn( 400 );
+    });
+
+    action = $( ".winner-action" );
+    action.fadeOut( 400, function() {
+      action.html( winnerAction[r] );
+      action.fadeIn( 400 );
     });
 
   }
