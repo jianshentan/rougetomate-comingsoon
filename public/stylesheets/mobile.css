@@ -22,7 +22,7 @@ body {
   background-position: center;
 }
 .game-wrapper {
-  padding-bottom: 86px;
+  padding-bottom: 36px;
   border-bottom: 3px solid red;
 }
 .game {
@@ -69,3 +69,27 @@ body {
 .social i {
   font-size: 24px;
 }
+
+/* Addition */
+.game-navigation {
+  position: absolute;
+  bottom: 200px;
+  width: 72vw;
+  text-align: center;
+}
+.game-navigation-selector {
+  border: 2px solid red;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+  background-color: white;
+}
+.game-navigation-selector.active {
+  color: white;
+  background-color: red;
+  cursor: inherit;
+}
+
